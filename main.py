@@ -1,6 +1,3 @@
-import sys
-import os
-
-from .monPackage import apply
+from .monPackage.apply import apply
 apply()
 print("Hello, world!")
